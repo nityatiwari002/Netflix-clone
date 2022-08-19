@@ -1,0 +1,168 @@
+/* CSS reset */
+*{
+    padding: 0;
+    margin: 0;
+    background-color:transparent;
+    color: white;
+    font-family:Netflix Sans,Helvetica Neue,Helvetica,Arial,sans-serif;
+    text-size-adjust: 100%;
+    letter-spacing: 1px;
+    text-align: center;
+    font-weight: 1px;
+    /* background: transparent; */
+}
+
+.home-page{
+    display: flex;
+    flex-direction: column;
+    background-image: url(bg1.jpeg);
+    background-repeat: no-repeat; 
+    background-position: center;
+    background-size: cover;
+    background-clip:border-box;
+    height: 600px;
+    width: auto;
+}
+.top{
+    display: flex;
+    flex: row;
+}
+.page{
+    background-color: black;
+}
+
+.head{
+    /* display: flex; */
+    flex: auto;
+    margin: 20px 50px 0;
+    /* opacity: 0.1; */
+    
+}
+
+.view1{
+    padding: 10% 3%;
+    /* max-width: 40%;
+    margin: 0 30%; */
+    box-sizing: border-box;
+}
+
+
+#top-buttons{
+    display: flex;
+    flex: auto;
+    font-weight: 1px;
+    /* font-size: 100px; */
+    background-color: black;
+
+}
+
+.buttons{
+    background-color: red;
+    padding: 0.5% 2%;
+    border-radius: 3px;
+}
+
+.lang{
+    font-size: 10px;
+}
+
+#language{
+    border: 1px solid white;
+    min-width: 20px;
+    max-height: 40px;
+    /* background-color: black;
+    border-color: rgb(240, 244, 246); */
+    display: flex;
+    flex: auto;
+    /* margin-left: 84%; */
+    /* margin-right: 3%; */
+    box-sizing: border-box;
+    padding: 6px 5px;
+    text-align: center;
+    position: relative;
+    /* font-size: 40px; */
+    /* opacity: 0.1; */
+    /* padding: 1%; */
+}
+
+select{
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    /* text-indent: 1px; */
+    /* text-overflow: ''; */
+    border: none;
+    position:relative;
+}
+
+
+.divide{
+    background-color: rgb(39, 35, 35);
+    min-height: 8px;
+}
+
+.buttons{
+    border: none;
+    padding: 8px;
+    /* margin-left: 30px ; */
+}
+
+.but1{
+    font-size: 15px;
+    max-height: 40px;
+    min-width: 40px;
+    margin-left: 30px;
+    padding: 0px 10px;
+}
+
+.icons{
+    margin: 1px 4px;
+}
+.headings{
+    font-size: 2.45rem;
+
+    text-align: center;
+    max-width: 40%;
+    margin: 0 30%;
+}
+
+.start{
+    padding: 8px 10px;
+}
+.desc{
+    padding: 1% 0;
+    font-size: 25px;
+}
+
+.text{
+    padding: 1% 0;
+    font-size: 20px;
+    font-weight: 0.5px;
+}
+
+.inline{
+    display: flex;
+    margin: 0 22%;
+}
+
+.email{
+    padding: 10px 100px;
+
+}
+
+.down-gif{
+    min-height: 100px;
+    min-width: auto;
+}
+
+.get-started{
+    margin-left: 0%;
+    padding: 0px 7px;
+    font-size: 30px;
+    min-width: 40%;
+}
+
+.fa-solid{
+    padding-top: 0px;
+    padding-bottom: 1px;
+    /* min-height: 2px; */
+}
